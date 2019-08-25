@@ -4,9 +4,15 @@ public class Hello {
     public static void main(String[] args) {
 //        System.out.println("Hello World");
 //        new Person().hello();
-        Person p = new Person();
+        Person p = new Person("Brian", 66.5f, 1.7f);
         p.hello();
-        int age = 19;
+        System.out.println(p.bmi());
+        int score = 88;
+        System.out.println(score < 80 || score > 85);
+        char c = 'A';
+        System.out.println(c > 'a');
+
+        /*int age = 19;
         char c = 'A';
         byte b = 120;
         float weight = 66.5f;
@@ -16,7 +22,7 @@ public class Hello {
         // Reference data type
         String name = "Brian";
         Integer age2 = 19;
-        Character c2 = 'A';
+        Character c2 = 'A';*/
     }
 
 }
